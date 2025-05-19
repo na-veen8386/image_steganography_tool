@@ -25,14 +25,6 @@ This project demonstrates how to **securely hide and transmit encrypted messages
 
 ---
 
-## 🖥️ Screenshots
-
-| Main UI | Project Info |
-|--------|--------------|
-| ![Main UI](screenshots/main_ui.png) | ![Info Page](screenshots/info_page.png) |
-
----
-
 ## 🧑‍💻 Developer Information
 
 - **Name**: Kalanjeri Naveen Prasad
@@ -48,10 +40,43 @@ This project demonstrates how to **securely hide and transmit encrypted messages
 
 ---
 
+<div>
+  <h2>📧 Gmail App Password Creation Process</h2>
+  <p>To allow your Python application to send emails via Gmail, follow these steps to generate an App Password:</p>
+
+  <ol>
+    <li>
+      <strong>Enable 2-Step Verification</strong>
+      <ul>
+        <li>Go to <a href="https://myaccount.google.com/security" target="_blank">Google Account Security</a>.</li>
+        <li>Under "Signing in to Google", enable <strong>2-Step Verification</strong>.</li>
+      </ul>
+    </li>
+  </ol>
+    <li>
+      <strong>Generate an App Password</strong>
+      <ul>
+        <li>After enabling 2-Step Verification, go to the <a href="https://myaccount.google.com/apppasswords" target="_blank">App Passwords</a> page.</li>
+        <li>You might need to re-enter your Google password.</li>
+        <li>In the "Select app" dropdown, choose <strong>Mail</strong>.</li>
+        <li>In the "Select device" dropdown, choose <strong>Other</strong>, then enter a custom name (e.g., <em>Python App</em>).</li>
+        <li>Click <strong>Generate</strong>.</li>
+        <li>A 16-character App Password will be displayed. Copy and use this password in your Python script instead of your regular Gmail password.</li>
+      </ul>
+    </li>
+</div>
+
+
+---
 ## 🚀 Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/image-steganography.git
+git clone https://github.com/na-veen8386/image_steganography_tool.git
+pip install pillow cryptography secure-smtplib
 cd image-steganography
+
+
+
+
