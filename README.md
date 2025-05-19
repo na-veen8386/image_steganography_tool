@@ -2,7 +2,6 @@
 
 This project demonstrates how to **securely hide and transmit encrypted messages within images** using steganography techniques and the **Fernet Cipher Suite**. Developed as part of a Cybersecurity Internship at **Supraja Technologies**, this application features GUI-based encryption, decryption, and email integration.
 
-![GUI Preview](preview.png)
 
 ## 📌 Project Summary
 
