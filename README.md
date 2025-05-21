@@ -60,7 +60,7 @@ This project demonstrates how to **securely hide and transmit encrypted messages
         <li>In the "Select app" dropdown, choose <strong>Mail</strong>.</li>
         <li>In the "Select device" dropdown, choose <strong>Other</strong>, then enter a custom name (e.g., <em>Python App</em>).</li>
         <li>Click <strong>Generate</strong>.</li>
-        <li>A 16-character App Password will be displayed. Copy and use this password in your Python script instead of your regular Gmail password.</li>
+        <li>A 16-character App Password will be displayed. Copy and use this password as SMTP password in the GUI application.</li>
       </ul>
     </li>
 </div>
